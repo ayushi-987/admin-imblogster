@@ -1,0 +1,9 @@
+<header class="navbar navbar-expand-lg fixed-top bg-white h-16">
+    <div class="container justify-content-center">
+        <a href="#" class="px-4 py-2 rounded-pill text-decoration-none"  style= " color:var(--primary-color); background-color : var(--secondary-color)"><b>IMBLOGSTER</b></a>
+    </div>
+    <div class="container justify-content-center" *ngIf="isLoggedIn$ | async">
+        <a href="#" class="me-3">{{userEmail}}</a>
+        <button class=" btn btn-logout btn-block btn-sm btn-info" (click)="onLogout()">Logout</button>
+    </div>
+</header>

@@ -1,0 +1,17 @@
+footer{
+    background-color: var(--navbar-footer-color);
+    padding: 20px;
+    ;
+}
+.site-logo{
+    color:var(--primary-color);
+    padding: 8px 20px;
+    background-color : var(--secondary-color);
+    border-radius: 30px;
+}
+.nav-link{
+    color: var(--primary-color);
+  }
+  .copyright{
+    color: purple   ;
+  }

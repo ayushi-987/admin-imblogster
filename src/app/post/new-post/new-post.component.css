@@ -1,0 +1,21 @@
+.card{
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 23px -8px rgba(71,114,254,0.3);
+}
+.save_btn{
+    margin-right: 20px;
+    background-color: var(--primary-color);
+
+}
+.heading{
+    color: purple;
+}
+.subheading{
+    color: rgba(57, 1, 57, 0.797);
+    font-size: 14px;
+}
+
+.img-preview{
+    height: 250px;
+}

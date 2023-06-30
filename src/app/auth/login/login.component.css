@@ -1,0 +1,27 @@
+.row{
+    justify-content: center;
+}
+
+
+.card{
+    margin-top: 12px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0px 23px -8px rgba(71,114,254,0.3);
+    background-color: var(--secondary-color);
+}
+
+.btn-login{
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: bold;
+}
+
+.heading{
+    color: var(--primary-color);
+}
+
+.subheading{
+    text-align: center;
+    font-size: small;
+}
