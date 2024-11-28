@@ -1,4 +1,4 @@
-@Library('recur-sl') _
+@Library('shared-libraries') _
 
 /*springboot (String servicename, String githubrepo, String stack)*/
 
